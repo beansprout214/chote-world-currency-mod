@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.hd.cwcurrencymod.ChoteWorldCurrencyMod;
 import net.hd.cwcurrencymod.block.ModBlocks;
 import net.hd.cwcurrencymod.item.custom.CocktailItem;
+import net.hd.cwcurrencymod.util.CocktailUtil;
 import net.hd.cwcurrencymod.util.constants.CocktailTypes;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -33,12 +34,12 @@ public class ModItemGroups {
                         entries.add(ModItems.ADDERALL_PILL);
 
                         entries.add(ModItems.COCKTAIL_GLASS);
-                        entries.add(CocktailItem.getCocktail(CocktailTypes.WATER));
-                        entries.add(CocktailItem.getCocktail(CocktailTypes.BLAZE_BOURBON));
-                        entries.add(CocktailItem.getCocktail(CocktailTypes.BITE_OF_87));
-                        entries.add(CocktailItem.getCocktail(CocktailTypes.DEATH_SENTENCE));
-                        entries.add(CocktailItem.getCocktail(CocktailTypes.BLAKE_SHAKE));
-                        entries.add(CocktailItem.getCocktail(CocktailTypes.CHOTE_FLOAT));
+                        entries.add(CocktailUtil.getCocktail(CocktailTypes.WATER));
+                        entries.add(CocktailUtil.getCocktail(CocktailTypes.BLAZE_BOURBON));
+                        entries.add(CocktailUtil.getCocktail(CocktailTypes.BITE_OF_87));
+                        entries.add(CocktailUtil.getCocktail(CocktailTypes.DEATH_SENTENCE));
+                        entries.add(CocktailUtil.getCocktail(CocktailTypes.BLAKE_SHAKE));
+                        entries.add(CocktailUtil.getCocktail(CocktailTypes.CHOTE_FLOAT));
                     })
                     .build());
 

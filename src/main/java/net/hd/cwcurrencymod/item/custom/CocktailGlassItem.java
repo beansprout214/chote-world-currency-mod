@@ -1,5 +1,6 @@
 package net.hd.cwcurrencymod.item.custom;
 
+import net.hd.cwcurrencymod.util.CocktailUtil;
 import net.hd.cwcurrencymod.util.constants.CocktailTypes;
 import net.minecraft.component.type.PotionContentsComponent;
 import net.minecraft.entity.player.PlayerEntity;
@@ -43,7 +44,7 @@ public class CocktailGlassItem extends Item {
                 if (world.getFluidState(blockPos).isIn(FluidTags.WATER)) {
                     world.playSound(user, user.getX(), user.getY(), user.getZ(), SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.NEUTRAL, 1.0F, 1.0F);
                     world.emitGameEvent(user, GameEvent.FLUID_PICKUP, blockPos);
-                    return ActionResult.SUCCESS.withNewHandStack(this.fill(itemStack, user, CocktailItem.getCocktail(CocktailTypes.WATER)));
+                    return ActionResult.SUCCESS.withNewHandStack(this.fill(itemStack, user, CocktailUtil.getCocktail(CocktailTypes.WATER)));
                 }
             }
 
