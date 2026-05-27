@@ -9,12 +9,16 @@ import net.hd.cwcurrencymod.component.ModComponents;
 import net.hd.cwcurrencymod.damage_type.ModDamageTypes;
 import net.hd.cwcurrencymod.item.ModItemGroups;
 import net.hd.cwcurrencymod.item.ModItems;
+import net.hd.cwcurrencymod.item.custom.CocktailItem;
 import net.hd.cwcurrencymod.item.custom.StimulantItem;
 import net.hd.cwcurrencymod.recipe.ModRecipeSerializers;
 import net.hd.cwcurrencymod.recipe.ModRecipeTypes;
 import net.hd.cwcurrencymod.util.*;
 import net.hd.cwcurrencymod.util.constants.UpdateReason;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.ItemEntity;
 import net.minecraft.inventory.InventoryChangedListener;
+import net.minecraft.item.ItemStack;
 import net.minecraft.server.network.ServerPlayerEntity;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -56,5 +60,14 @@ public class ChoteWorldCurrencyMod implements ModInitializer {
 
 			StimulantItem.tick();
 		});
+
+		ServerTickEvents.END_WORLD_TICK.register(serverWorld -> {
+			for (ItemEntity item : serverWorld.getEntitiesByType(EntityType.ITEM,item -> true)) {
+				ItemStack itemStack = item.getStack();
+				if (itemStack.isOf(ModItems.COCKTAIL)) {
+					CocktailUtil.interactWithNearby(item);
+				}
+			}
+		} );
 	}
 }
