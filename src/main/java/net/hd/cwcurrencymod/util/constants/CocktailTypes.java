@@ -26,7 +26,4 @@ public enum CocktailTypes {
         }
         return null;
     }
-
-    public class WA {
-    }
 }
