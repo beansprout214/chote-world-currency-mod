@@ -1,0 +1,43 @@
+{
+  "itemgroup.chote-world-currency-mod.chote_currency": "Chote Currency",
+
+  "item.chote-world-currency-mod.pookie_bear": "Pookie Bear",
+
+  "item.chote-world-currency-mod.gel_capsule": "Gel Capsule",
+  "item.chote-world-currency-mod.raw_stimulant": "Raw Stimulant",
+  "item.chote-world-currency-mod.stimulant": "Stimulant",
+  "item.chote-world-currency-mod.adderall_pill": "Adderall Pill",
+
+  "item.chote-world-currency-mod.chote_coin": "Chote Coin",
+  "item.chote-world-currency-mod.choite_cent": "Choite Cent",
+
+  "cocktail.chote-world-currency-mod.water": "Water",
+  "cocktail.chote-world-currency-mod.blaze_bourbon": "Blaze Bourbon",
+  "cocktail.chote-world-currency-mod.bite_of_87": "The Bite of '87",
+  "cocktail.chote-world-currency-mod.death_sentence": "The Death Sentence",
+
+  "item.chote-world-currency-mod.cocktail_glass": "Cocktail Glass",
+  "item.chote-world-currency-mod.cocktail": "Cocktail",
+
+  "block.chote-world-currency-mod.chote_coin_block": "Chote Coin Block",
+  "block.chote-world-currency-mod.choite_cent_block": "Choite Cent Block",
+
+  "effect.chote-world-currency-mod.geeked": "Geeked",
+  "effect.chote-world-currency-mod.slimey": "Slimey",
+
+  "tooltip.chote-world-currency-mod.pookie_bear1": "A certain orange cat",
+  "tooltip.chote-world-currency-mod.pookie_bear2": "might want this back",
+  "tooltip.chote-world-currency-mod.stimulant": "Careful of the crash!",
+  "tooltip.chote-world-currency-mod.adderall_pill1": "Works for most people,",
+  "tooltip.chote-world-currency-mod.adderall_pill2": "most of the time",
+
+  "death.attack.overdose.1": "%1$s got too hyper",
+  "death.attack.overdose.2": "%1$s overdosed",
+  "death.attack.overdose.3": "%1$s couldn't handle withdrawal",
+  "death.attack.overdose.4": "%1$s used too often",
+  "death.attack.overdose.player": "%1$s got peer pressured by %2$s",
+  "death.attack.cocktail_death_sentence": "\"That sign can't stop me because I can't read\" - %1$s",
+  "death.attack.cocktail_death_sentence.player": "%1$s was alcohol poisoned by %2$s",
+  "death.attack.cocktail_bite_of_87": "%1$s didn't close the hallway door in time",
+  "death.attack.cocktail_bite_of_87.player": "%1$s was alcohol poisoned by %2$s"
+}

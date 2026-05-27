@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    "cratedelight:sugar_bag"
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 3,
+        "id": "chote-world-currency-mod:raw_stimulant"
+      }
+    }
+  ],
+  "tool": "#c:tools/knife"
+}

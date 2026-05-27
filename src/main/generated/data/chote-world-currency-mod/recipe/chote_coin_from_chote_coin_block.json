@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "misc",
+  "ingredients": [
+    "chote-world-currency-mod:chote_coin_block"
+  ],
+  "result": {
+    "count": 8,
+    "id": "chote-world-currency-mod:chote_coin"
+  }
+}

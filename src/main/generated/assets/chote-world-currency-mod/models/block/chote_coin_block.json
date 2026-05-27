@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "chote-world-currency-mod:block/chote_coin_block"
+  }
+}

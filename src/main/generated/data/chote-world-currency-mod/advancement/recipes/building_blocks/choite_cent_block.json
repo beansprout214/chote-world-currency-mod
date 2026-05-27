@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_choite_cent": {
+      "conditions": {
+        "items": [
+          {
+            "items": "chote-world-currency-mod:choite_cent"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "chote-world-currency-mod:choite_cent_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_choite_cent"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chote-world-currency-mod:choite_cent_block"
+    ]
+  }
+}

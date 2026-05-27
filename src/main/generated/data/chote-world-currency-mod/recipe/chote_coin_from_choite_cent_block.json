@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": "chote-world-currency-mod:choite_cent_block"
+  },
+  "pattern": [
+    "XXX",
+    "X X",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "chote-world-currency-mod:chote_coin"
+  }
+}

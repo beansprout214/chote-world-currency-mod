@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_stimulant": {
+      "conditions": {
+        "items": [
+          {
+            "items": "chote-world-currency-mod:raw_stimulant"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "chote-world-currency-mod:stimulant_from_smelting_raw_stimulant"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_stimulant"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chote-world-currency-mod:stimulant_from_smelting_raw_stimulant"
+    ]
+  }
+}

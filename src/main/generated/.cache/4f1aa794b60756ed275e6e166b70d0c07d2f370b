@@ -1,0 +1,21 @@
+// 1.21.11	-999999999-01-01T00:00:00	Chote World Mod/Chote World Currency Mod Recipes
+135e3b7c5ff12ad7c58d53ccc17fc534778bd551 data/chote-world-currency-mod/advancement/recipes/building_blocks/choite_cent_block.json
+df04f8e4d9a8a022c23eba93191701447e9c0e15 data/chote-world-currency-mod/advancement/recipes/building_blocks/chote_coin_block.json
+a9d0223c213545dfb92687a9a8f38cdee32ad38f data/chote-world-currency-mod/advancement/recipes/misc/adderall_pill.json
+49a55ac8532eda40f8c0d949c012c801fc12ba4f data/chote-world-currency-mod/advancement/recipes/misc/choite_cent_block_from_chote_coin.json
+ef1c6850797ba4b720d89fa8957d1d15b6213f3a data/chote-world-currency-mod/advancement/recipes/misc/choite_cent_from_choite_cent_block.json
+75a1fea71cb924cd8c9b25eb625a33a24c489f8c data/chote-world-currency-mod/advancement/recipes/misc/chote_coin_from_choite_cent_block.json
+25f143b388790afad7ad51a5845d49c49948261f data/chote-world-currency-mod/advancement/recipes/misc/chote_coin_from_chote_coin_block.json
+5ac4d3abf3aa519ec5a6d518f23c3a57c3a34956 data/chote-world-currency-mod/advancement/recipes/misc/cocktail_glass.json
+df8a3a24a62698b696fec8549a84c65a614507e8 data/chote-world-currency-mod/advancement/recipes/misc/gel_capsule.json
+227f585f202efab99017ff54d4385af01f7e052b data/chote-world-currency-mod/advancement/recipes/misc/stimulant_from_smelting_raw_stimulant.json
+88f99d410e469a369676d575081e2ff76e1f8470 data/chote-world-currency-mod/recipe/adderall_pill.json
+3c3407b67fab429df72223edeb1259fd2ad99b80 data/chote-world-currency-mod/recipe/choite_cent_block.json
+bb10bb4602302bfb45ecf5cbd6e01f150e5e27dc data/chote-world-currency-mod/recipe/choite_cent_block_from_chote_coin.json
+666a36ef939f724f4f0b5d3ce88c65492965ab77 data/chote-world-currency-mod/recipe/choite_cent_from_choite_cent_block.json
+d9425fa0709421214da05147ea24d9bac76a04a4 data/chote-world-currency-mod/recipe/chote_coin_block.json
+a2d6c6739a0c4d106b7e329659b7236d8d6ff071 data/chote-world-currency-mod/recipe/chote_coin_from_choite_cent_block.json
+5925445422456bf0ec3db295b6cffeac718b5eda data/chote-world-currency-mod/recipe/chote_coin_from_chote_coin_block.json
+e44da1ad091cdf600f706c886f3097724069e3b2 data/chote-world-currency-mod/recipe/cocktail_glass.json
+d4395497b07940a3613a6c331a8229c4eb966ad2 data/chote-world-currency-mod/recipe/gel_capsule.json
+3f94eee238258259a35332a516ac249101afdf5f data/chote-world-currency-mod/recipe/stimulant_from_smelting_raw_stimulant.json

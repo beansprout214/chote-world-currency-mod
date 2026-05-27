@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:honeycomb",
+    "minecraft:slime_ball",
+    "minecraft:water_bucket"
+  ],
+  "result": {
+    "count": 1,
+    "id": "chote-world-currency-mod:gel_capsule"
+  }
+}

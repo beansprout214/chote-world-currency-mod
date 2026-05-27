@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "stimulant",
+  "ingredient": "chote-world-currency-mod:raw_stimulant",
+  "result": {
+    "id": "chote-world-currency-mod:stimulant"
+  }
+}

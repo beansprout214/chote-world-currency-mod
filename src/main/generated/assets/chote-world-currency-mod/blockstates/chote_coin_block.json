@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "chote-world-currency-mod:block/chote_coin_block"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gel_capsule": {
+      "conditions": {
+        "items": [
+          {
+            "items": "chote-world-currency-mod:gel_capsule"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stimulant": {
+      "conditions": {
+        "items": [
+          {
+            "items": "chote-world-currency-mod:stimulant"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "chote-world-currency-mod:adderall_pill"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gel_capsule",
+      "has_stimulant"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chote-world-currency-mod:adderall_pill"
+    ]
+  }
+}

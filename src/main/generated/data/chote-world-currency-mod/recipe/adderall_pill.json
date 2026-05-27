@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "chote-world-currency-mod:gel_capsule",
+    "chote-world-currency-mod:stimulant"
+  ],
+  "result": {
+    "count": 1,
+    "id": "chote-world-currency-mod:adderall_pill"
+  }
+}
