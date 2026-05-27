@@ -9,7 +9,6 @@ import net.minecraft.util.Identifier;
 
 public class ModRecipeTypes {
 
-    public static final RecipeType<CocktailRecipeDeprecated> COCKTAIL_MIXING = register("cocktail_mixing");
 
     private static <T extends Recipe<?>> RecipeType<T> register(String id) {
         return Registry.register(Registries.RECIPE_TYPE, Identifier.of(ChoteWorldCurrencyMod.MOD_ID,id), new RecipeType<T>() {
