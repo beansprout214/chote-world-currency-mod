@@ -1,4 +1,11 @@
 # Chote World Currency Mod
+## Info
+
+mod for chote world minecraft server, fabric 1.21.11
+
+## Dependencies
+
+intended for use with farmer's delight and backpacked
 
 ## Setup
 
