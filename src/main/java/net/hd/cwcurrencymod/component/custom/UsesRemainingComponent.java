@@ -10,7 +10,7 @@ public record UsesRemainingComponent(int maxUses, int usesRemaining) {
                     Codec.INT.fieldOf("usesRemaining").forGetter(UsesRemainingComponent::usesRemaining)
             ).apply(instance, UsesRemainingComponent::new));
 
-    public static final UsesRemainingComponent COCKTAIL = new UsesRemainingComponent(5,5);
+    public static final UsesRemainingComponent COCKTAIL = new UsesRemainingComponent(1,1);
 
     public UsesRemainingComponent decrement() {
         return new UsesRemainingComponent(maxUses, Math.clamp(usesRemaining-1,0,maxUses));

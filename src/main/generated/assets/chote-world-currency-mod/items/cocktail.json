@@ -1,88 +1,15 @@
 {
   "model": {
-    "type": "minecraft:range_dispatch",
-    "entries": [
+    "type": "minecraft:model",
+    "model": "chote-world-currency-mod:item/cocktail",
+    "tints": [
       {
-        "model": {
-          "type": "minecraft:model",
-          "model": "chote-world-currency-mod:item/cocktail_1",
-          "tints": [
-            {
-              "type": "minecraft:constant",
-              "value": -1
-            },
-            {
-              "type": "chote-world-currency-mod:cocktail_tint_source"
-            }
-          ]
-        },
-        "threshold": 0.2
+        "type": "minecraft:constant",
+        "value": -1
       },
       {
-        "model": {
-          "type": "minecraft:model",
-          "model": "chote-world-currency-mod:item/cocktail_2",
-          "tints": [
-            {
-              "type": "minecraft:constant",
-              "value": -1
-            },
-            {
-              "type": "chote-world-currency-mod:cocktail_tint_source"
-            }
-          ]
-        },
-        "threshold": 0.4
-      },
-      {
-        "model": {
-          "type": "minecraft:model",
-          "model": "chote-world-currency-mod:item/cocktail_3",
-          "tints": [
-            {
-              "type": "minecraft:constant",
-              "value": -1
-            },
-            {
-              "type": "chote-world-currency-mod:cocktail_tint_source"
-            }
-          ]
-        },
-        "threshold": 0.6
-      },
-      {
-        "model": {
-          "type": "minecraft:model",
-          "model": "chote-world-currency-mod:item/cocktail_4",
-          "tints": [
-            {
-              "type": "minecraft:constant",
-              "value": -1
-            },
-            {
-              "type": "chote-world-currency-mod:cocktail_tint_source"
-            }
-          ]
-        },
-        "threshold": 0.8
-      },
-      {
-        "model": {
-          "type": "minecraft:model",
-          "model": "chote-world-currency-mod:item/cocktail_5",
-          "tints": [
-            {
-              "type": "minecraft:constant",
-              "value": -1
-            },
-            {
-              "type": "chote-world-currency-mod:cocktail_tint_source"
-            }
-          ]
-        },
-        "threshold": 1.0
+        "type": "chote-world-currency-mod:cocktail_tint_source"
       }
-    ],
-    "property": "chote-world-currency-mod:cocktail_uses"
+    ]
   }
 }

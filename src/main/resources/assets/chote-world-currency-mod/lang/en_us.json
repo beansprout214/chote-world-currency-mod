@@ -15,6 +15,8 @@
   "cocktail.chote-world-currency-mod.blaze_bourbon": "Blaze Bourbon",
   "cocktail.chote-world-currency-mod.bite_of_87": "The Bite of '87",
   "cocktail.chote-world-currency-mod.death_sentence": "The Death Sentence",
+  "cocktail.chote-world-currency-mod.blake_shake": "Blake Shake",
+  "cocktail.chote-world-currency-mod.chote_float": "Chote Float",
 
   "item.chote-world-currency-mod.cocktail_glass": "Cocktail Glass",
   "item.chote-world-currency-mod.cocktail": "Cocktail",
@@ -33,7 +35,7 @@
 
   "death.attack.overdose.1": "%1$s got too hyper",
   "death.attack.overdose.2": "%1$s overdosed",
-  "death.attack.overdose.3": "%1$s couldn't handle withdrawal",
+  "death.attack.overdose.3": "%1$s couldn't put down the cup",
   "death.attack.overdose.4": "%1$s used too often",
   "death.attack.overdose.player": "%1$s got peer pressured by %2$s",
   "death.attack.cocktail_death_sentence": "\"That sign can't stop me because I can't read\" - %1$s",

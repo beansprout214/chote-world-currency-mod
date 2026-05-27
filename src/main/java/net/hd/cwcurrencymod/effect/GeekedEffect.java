@@ -5,9 +5,7 @@ import net.hd.cwcurrencymod.util.constants.RegisteredDamageTypes;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
-import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.server.world.ServerWorld;
-import net.minecraft.world.World;
 
 public class GeekedEffect extends StatusEffect {
     public GeekedEffect(StatusEffectCategory category, int color) {
@@ -24,13 +22,13 @@ public class GeekedEffect extends StatusEffect {
         return true;
     }
 
-    public static boolean applyGeekedDamage(ServerWorld serverWorld, LivingEntity entity, float amount) {
-        return entity.damage(serverWorld, ModDamageTypes.getDamageSource(serverWorld, RegisteredDamageTypes.OVERDOSE), amount);
+    public static void applyGeekedDamage(ServerWorld serverWorld, LivingEntity entity, float amount) {
+        entity.damage(serverWorld, ModDamageTypes.getDamageSource(serverWorld, RegisteredDamageTypes.OVERDOSE), amount);
     }
 
-    public static boolean applyGeekedDamagePostAmplified(ServerWorld serverWorld, LivingEntity entity) {
+    public static void applyGeekedDamagePostAmplified(ServerWorld serverWorld, LivingEntity entity) {
         float currHealth = entity.getHealth();
-        return applyGeekedDamage(serverWorld, entity, currHealth-1f);
+        applyGeekedDamage(serverWorld, entity, currHealth - 1f);
     }
 
 }

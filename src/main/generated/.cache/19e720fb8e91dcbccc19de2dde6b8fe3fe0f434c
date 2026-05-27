@@ -6,7 +6,7 @@ f92b1fd61af7e3c6fd68c7c179aa6fad63be35b3 assets/chote-world-currency-mod/items/c
 908a9e899aec787a7590aaa16c3a0fe7838b5a64 assets/chote-world-currency-mod/items/choite_cent_block.json
 dfa412133e07e78b33e9490c00730cce639a0aed assets/chote-world-currency-mod/items/chote_coin.json
 545f29c1da91c13a84c644d17238adf34cadf797 assets/chote-world-currency-mod/items/chote_coin_block.json
-3c3429d8ada811bade1e19c552beb496b1fb9e6c assets/chote-world-currency-mod/items/cocktail.json
+113f239f6ee63278d03df36ed8eef4c1af2e6981 assets/chote-world-currency-mod/items/cocktail.json
 b79c39b04d9dda49c1e3c4a511708a3719f7f93a assets/chote-world-currency-mod/items/cocktail_glass.json
 89961da8717713963e0107ffba2edbcc21ef1d09 assets/chote-world-currency-mod/items/gel_capsule.json
 45e23e95e368ef15e9aed7467ff49a59ae021b12 assets/chote-world-currency-mod/items/pookie_bear.json
@@ -17,11 +17,7 @@ b79c39b04d9dda49c1e3c4a511708a3719f7f93a assets/chote-world-currency-mod/items/c
 7059e3d8a11f872c0f5d2a3c74028e19f42c7fd4 assets/chote-world-currency-mod/models/item/adderall_pill.json
 acb771e42be4a39bb4019d2ae82d6cd97ed04d1f assets/chote-world-currency-mod/models/item/choite_cent.json
 b62cb0501282fafc51ac1c5318568fbc8d08ff27 assets/chote-world-currency-mod/models/item/chote_coin.json
-89148406fb1f9b63742c14685f96bf5b7052450f assets/chote-world-currency-mod/models/item/cocktail_1.json
-436336f8399773a502514a8a9c4255787ac12316 assets/chote-world-currency-mod/models/item/cocktail_2.json
-3286a202afa05c81205ae26b901611c1af3c309a assets/chote-world-currency-mod/models/item/cocktail_3.json
-d5a63eefb4119e57c988349f188904bdc390bbb8 assets/chote-world-currency-mod/models/item/cocktail_4.json
-ddd41bea82a43748c35984fbb9557bfe23e14a42 assets/chote-world-currency-mod/models/item/cocktail_5.json
+7cbabc3ac5bb280e1fbd67e7cf63f45fb217d2c2 assets/chote-world-currency-mod/models/item/cocktail.json
 64e6c0d3c25c9fc89fe5506c36661bdd98a63fe3 assets/chote-world-currency-mod/models/item/cocktail_glass.json
 375fa89cb19b7c0fdf505ae9e76e89b2e4245177 assets/chote-world-currency-mod/models/item/gel_capsule.json
 c293be0ff555a5d7a77d5b69c9cb2411e423f26a assets/chote-world-currency-mod/models/item/pookie_bear.json

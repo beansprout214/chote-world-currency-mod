@@ -16,5 +16,7 @@ public record CocktailRecord(String id, int duration, int amplifier) {
     public static final CocktailRecord BLAZE_BOURBON = new CocktailRecord(CocktailTypes.BLAZE_BOURBON.id(), 160, 0);
     public static final CocktailRecord BITE_OF_87 = new CocktailRecord(CocktailTypes.BITE_OF_87.id(), 0, 0);
     public static final CocktailRecord DEATH_SENTENCE = new CocktailRecord(CocktailTypes.DEATH_SENTENCE.id(), 0, 0);
+    public static final CocktailRecord BLAKE_SHAKE = new CocktailRecord(CocktailTypes.BLAKE_SHAKE.id(), 0, 0);
+    public static final CocktailRecord CHOTE_FLOAT = new CocktailRecord(CocktailTypes.CHOTE_FLOAT.id(), 0, 0);
 
 }

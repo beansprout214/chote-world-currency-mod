@@ -2,10 +2,9 @@ package net.hd.cwcurrencymod.util;
 
 import net.hd.cwcurrencymod.ChoteWorldCurrencyMod;
 import net.hd.cwcurrencymod.component.custom.CocktailContentsComponent;
-import net.hd.cwcurrencymod.data.cocktail_types.CocktailRecord;
 import net.hd.cwcurrencymod.util.constants.CocktailTypes;
 
-public class CocktailHelper {
+public class CocktailUtil {
     public static int getColor(CocktailContentsComponent contentsComponent) {
         CocktailTypes type = CocktailTypes.fromId(contentsComponent.record().id());
         if (type == null) {
@@ -20,6 +19,10 @@ public class CocktailHelper {
                 return 0xFF965823;
             case DEATH_SENTENCE:
                 return 0xFF363636;
+            case BLAKE_SHAKE:
+                return 0xFF42d10f;
+            case CHOTE_FLOAT:
+                return 0xFFffa30f;
             case null:
                 break;
         }

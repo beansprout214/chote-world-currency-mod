@@ -10,6 +10,8 @@ import net.hd.cwcurrencymod.damage_type.ModDamageTypes;
 import net.hd.cwcurrencymod.item.ModItemGroups;
 import net.hd.cwcurrencymod.item.ModItems;
 import net.hd.cwcurrencymod.item.custom.StimulantItem;
+import net.hd.cwcurrencymod.recipe.ModRecipeSerializers;
+import net.hd.cwcurrencymod.recipe.ModRecipeTypes;
 import net.hd.cwcurrencymod.util.*;
 import net.hd.cwcurrencymod.util.constants.UpdateReason;
 import net.minecraft.inventory.InventoryChangedListener;
@@ -28,6 +30,8 @@ public class ChoteWorldCurrencyMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModDamageTypes.registerModDamageTypes();
 		ModComponents.registerDataComponentTypes();
+		ModRecipeTypes.register();
+		ModRecipeSerializers.register();
 
 		ServerPlayerEvents.JOIN.register(player -> {
 			InventoryListener listener = new InventoryListener(player);

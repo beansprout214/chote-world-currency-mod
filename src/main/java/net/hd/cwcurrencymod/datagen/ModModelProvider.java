@@ -65,8 +65,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ADDERALL_PILL, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.COCKTAIL_GLASS, Models.GENERATED);
-        registerCocktailModels(itemModelGenerator);
 
-//        itemModelGenerator.registerWithTintedOverlay(ModItems.COCKTAIL, new CocktailTintSource());
+//        registerCocktailModels(itemModelGenerator);
+        itemModelGenerator.registerWithTintedOverlay(ModItems.COCKTAIL, new CocktailTintSource());
     }
 }

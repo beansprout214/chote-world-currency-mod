@@ -6,6 +6,8 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.hd.cwcurrencymod.ChoteWorldCurrencyMod;
 import net.hd.cwcurrencymod.block.ModBlocks;
 import net.hd.cwcurrencymod.item.ModItems;
+import net.hd.cwcurrencymod.item.custom.CocktailItem;
+import net.hd.cwcurrencymod.util.constants.CocktailTypes;
 import net.minecraft.data.recipe.RecipeExporter;
 import net.minecraft.data.recipe.RecipeGenerator;
 import net.minecraft.item.*;

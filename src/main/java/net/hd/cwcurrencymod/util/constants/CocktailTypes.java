@@ -4,7 +4,9 @@ public enum CocktailTypes {
     WATER("water"),
     BLAZE_BOURBON("blaze_bourbon"),
     BITE_OF_87("bite_of_87"),
-    DEATH_SENTENCE("death_sentence");
+    DEATH_SENTENCE("death_sentence"),
+    BLAKE_SHAKE("blake_shake"),
+    CHOTE_FLOAT("chote_float");
 
     private final String id;
 
@@ -23,5 +25,8 @@ public enum CocktailTypes {
             }
         }
         return null;
+    }
+
+    public class WA {
     }
 }

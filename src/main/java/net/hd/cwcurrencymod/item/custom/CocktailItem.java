@@ -1,5 +1,6 @@
 package net.hd.cwcurrencymod.item.custom;
 
+import com.terraformersmc.modmenu.util.mod.Mod;
 import net.hd.cwcurrencymod.ChoteWorldCurrencyMod;
 import net.hd.cwcurrencymod.component.ModComponents;
 import net.hd.cwcurrencymod.component.custom.CocktailContentsComponent;
@@ -14,11 +15,22 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemUsage;
+import net.minecraft.registry.tag.FluidTags;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.stat.Stats;
 import net.minecraft.text.Text;
+import net.minecraft.util.ActionResult;
 import net.minecraft.util.Formatting;
+import net.minecraft.util.Hand;
+import net.minecraft.util.hit.BlockHitResult;
+import net.minecraft.util.hit.HitResult;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.RaycastContext;
 import net.minecraft.world.World;
+import net.minecraft.world.event.GameEvent;
 import org.jspecify.annotations.Nullable;
 
 import java.util.List;
@@ -87,7 +99,7 @@ public class CocktailItem extends Item {
             case BITE_OF_87:
                 float health = entity.getHealth();
 
-                if (health > 1f) {
+                if (health > 4f) {
                     entity.damage(serverWorld, ModDamageTypes.getDamageSource(serverWorld, RegisteredDamageTypes.COCKTAIL_BITE_OF_87), health - 1f);
                     break;
                 }
@@ -145,8 +157,19 @@ public class CocktailItem extends Item {
             case DEATH_SENTENCE:
                 return CocktailItem.createCocktail("cocktail.chote-world-currency-mod.death_sentence", CocktailRecord.DEATH_SENTENCE, Formatting.DARK_GRAY);
 
+            case BLAKE_SHAKE:
+                return CocktailItem.createCocktail("cocktail.chote-world-currency-mod.blake_shake", CocktailRecord.BLAKE_SHAKE, Formatting.GREEN);
+
+            case CHOTE_FLOAT:
+                return CocktailItem.createCocktail("cocktail.chote-world-currency-mod.chote_float", CocktailRecord.CHOTE_FLOAT, Formatting.GOLD);
+
         }
 
         return null;
+    }
+
+    private ItemStack fill(ItemStack stack, PlayerEntity player, ItemStack outputStack) {
+        player.incrementStat(Stats.USED.getOrCreateStat(this));
+        return ItemUsage.exchangeStack(stack, player, outputStack);
     }
 }

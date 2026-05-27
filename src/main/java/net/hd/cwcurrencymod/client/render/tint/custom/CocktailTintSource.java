@@ -3,7 +3,7 @@ package net.hd.cwcurrencymod.client.render.tint.custom;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
 import net.hd.cwcurrencymod.component.ModComponents;
-import net.hd.cwcurrencymod.util.CocktailHelper;
+import net.hd.cwcurrencymod.util.CocktailUtil;
 import net.minecraft.client.render.item.tint.TintSource;
 import net.minecraft.client.world.ClientWorld;
 import net.minecraft.entity.LivingEntity;
@@ -19,7 +19,7 @@ public class CocktailTintSource implements TintSource {
         var contents = stack.get(ModComponents.COCKTAIL_CONTENTS);
         if (contents == null) return 0xFFFFFF;
 
-        return CocktailHelper.getColor(contents);
+        return CocktailUtil.getColor(contents);
     }
 
     @Override

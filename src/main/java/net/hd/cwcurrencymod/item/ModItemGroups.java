@@ -37,6 +37,8 @@ public class ModItemGroups {
                         entries.add(CocktailItem.getCocktail(CocktailTypes.BLAZE_BOURBON));
                         entries.add(CocktailItem.getCocktail(CocktailTypes.BITE_OF_87));
                         entries.add(CocktailItem.getCocktail(CocktailTypes.DEATH_SENTENCE));
+                        entries.add(CocktailItem.getCocktail(CocktailTypes.BLAKE_SHAKE));
+                        entries.add(CocktailItem.getCocktail(CocktailTypes.CHOTE_FLOAT));
                     })
                     .build());
 
